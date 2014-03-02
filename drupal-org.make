@@ -1,3 +1,9 @@
+api = 2
+core = 7.x
+
+projects[features_override][subdir] = contrib
+projects[features_override][version] = 2.0-rc1
+
 projects[feeds][version] = 2.x-dev
 projects[feeds][subdir] = contrib
 projects[feeds][download][type] = git
